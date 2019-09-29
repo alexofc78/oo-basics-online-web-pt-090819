@@ -15,8 +15,5 @@ class Shoe
     @condition = "new"
   end
   
-  if :condition == "new"
-    puts "new"
-  end
  
 end
