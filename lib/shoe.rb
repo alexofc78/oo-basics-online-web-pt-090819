@@ -11,6 +11,10 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+  def condition=("new")
+    @condition = "new"
+  end
+  
   if :condition == "new"
     puts "new"
   end
